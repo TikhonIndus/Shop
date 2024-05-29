@@ -1,5 +1,5 @@
 import { guestInstance, authInstance } from './index.js'
-import jwtDecode from 'jwt-decode'
+import { jwtDecode } from 'jwt-decode'
 
 export const signup = async (email, password) => {
     try {
